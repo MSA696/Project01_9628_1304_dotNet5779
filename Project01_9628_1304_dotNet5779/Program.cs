@@ -11,7 +11,7 @@ namespace Project01_9628_1304_dotNet5779
         static void Main(string[] args)
         {
             Console.WriteLine("Hello");
-
+            Console.ReadKey();
         }
     }
 }
