@@ -21,6 +21,9 @@ namespace BE
         string carType;
         bool[,] workHour = new bool[5, 6];
         int maxDis;
-        //toString
+        override public string ToString()
+        {
+            return "";//
+        }
     }
 }

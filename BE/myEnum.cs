@@ -8,6 +8,8 @@ namespace BE
 {
     class myEnum
     {
-
+        enum carType { privateCar, bike, mediumTruck, havyTruck}
+        enum gearBox { manual, automatic}
+        enum sex { male, female}
     }
 }

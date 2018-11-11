@@ -8,7 +8,7 @@ namespace BE
 {
     class Test
     {
-        static int code = 0;
+        static int code = configuration.firstNum;
         int testId;
         string testerId;
         string traineeId;
@@ -21,6 +21,10 @@ namespace BE
         bool signaling;
         bool score;
         string note;
+        override public string ToString()
+        {
+            return "";//
+        }
         Test()
         {
 

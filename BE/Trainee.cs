@@ -20,5 +20,9 @@ namespace BE
         string schoolName;
         string teacher;
         int classNum;
+        override public string ToString()
+        {
+            return "";//
+        }
     }
 }
